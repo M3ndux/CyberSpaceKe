@@ -30,6 +30,25 @@ n is the modulus
 
 I decided to write a python code to decrypt the flag using the pow() method in python
 
-m = pow(encryptedFlag, privateKey, modulus)..
+m = pow(encryptedFlag, privateKey, modulus).
+
+```python
+import binascii
+                                                                encryptedFlag = [25093029348589988, 4521027679642871, 24627307819255443, 9960547738404075, 11259248461081440, 22505742667320478, 9377760342138904, 23745739356821857, 25985317747963106, 21569289016296976, 33133895850821816, 6914007185378157, 27796025575756738, 15062199630481745]
+
+privateKey = 13641456358166273
+                                                                modulus = 34164633714288263                                                                                                     flag = []
+
+for c in encryptedFlag:
+    message = pow(c, privateKey, modulus)
+    flag.append(message)
+
+flag = [hex(i) for i in flag]                                                                                                   final = [str(i)[2:] for i in flag]
+for i in final:
+    try:
+        print(binascii.unhexlify(i).decode(), end="")
+    except:
+        pass
+```
 
 on running the script, we get the flag;p
