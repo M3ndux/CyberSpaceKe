@@ -20,7 +20,7 @@ lets dive into the actual challenge ;p
 running the crypto.py, we are provided with public key, private key and the encrypted flag.. "easy one" XD
 <img src="Crypto.png">
 
-we are provided, with the exponent, modulus and the secret(private key) which makes decrypting the flag even more easy
+we are provided, with the `exponent`, `modulus` and the `secret(private key)` which makes decrypting the flag even more easy
 
 in RSA; m(message) = ( c ^ d ) % n
 
