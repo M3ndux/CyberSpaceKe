@@ -18,6 +18,7 @@ My next move was to run the setup.py `python3 setup.py install` that installs th
 lets dive into the actual challenge ;p
 
 running the crypto.py, we are provided with public key, private key and the encrypted flag.. "easy one" XD
+<img src="Crypto.png">
 
 we are provided, with the exponent, modulus and the secret(private key) which makes decrypting the flag even more easy
 
