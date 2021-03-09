@@ -25,7 +25,9 @@ we are provided, with the `exponent`, `modulus` and the `secret(private key)` wh
 in RSA; m(message) = ( c ^ d ) % n
 
 where C is the ciphertext in our case the ecrypted flag
+
 d is the private key, the secret value that was provided from the script
+
 n is the modulus
 
 I decided to write a python code to decrypt the flag using the pow() method in python
