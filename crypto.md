@@ -1,9 +1,8 @@
 # CyberSpaceKe The CSPKE CryptoFREE VAULT
 
-We had an awesome CTF competition which was hosted by CyberSpaceKe that  was held at Afralti Conference & Guest House located in Nairobi Kenya. There were a number of challenges to tackle within the 12 hours that the CTF was live, although am going to cover on how I solved the crypto challange only on this writeup..
+We had an awesome CTF competition which was hosted by CyberSpaceKe that  was held at Afralti Conference & Guest House located in Nairobi Kenya. There were a number of challenges to tackle within the 12 hours that the CTF was live, although am going to cover on how I solved the crypto challenge only on this writeup.
 
-Firstly, we have to know how RSA works. A comprehensive description on how RSA works can be found here — https://en.wikipedia.org/wiki/RSA_(cryptosystem)
-
+Firstly, we have to know how RSA works since the challenge was based on RSA. A comprehensive description on how RSA works can be found <a href="https://en.wikipedia.org/wiki/RSA_(cryptosystem)">here</a>
 for this challenge we are provided with a .zip file
 
 on extracting the crypto.zip, we get three files, a README.txt, setup.py and crypto.py
