@@ -1,4 +1,4 @@
-# CyberSpaceKe The CSPKE CryptoFREE VAULT
+# CyberiSpaceKe The CSPKE CryptoFREE VAULT
 
 We had an awesome CTF competition which was hosted by CyberSpaceKe that  was held at Afralti Conference & Guest House located in Nairobi Kenya. There were a number of challenges to tackle within the 12 hours that the CTF was live, although am going to cover on how I solved the crypto challenge only on this writeup.
 
@@ -15,7 +15,7 @@ My first step was to read the content of the readme file but it did not explain 
 My next move was to run the setup.py `python3 setup.py install` that installs the packages needed for the challenge.
 <img src="Setup.png">
 
-lets dive into the actual challenge ;p
+let's dive into the actual challenge ;p
 
 running the crypto.py, we are provided with public key, private key and the encrypted flag.. "easy one" XD
 <img src="Crypto.png">
@@ -24,15 +24,17 @@ we are provided, with the `exponent`, `modulus` and the `secret(private key)` wh
 
 in RSA; m(message) = ( c ^ d ) % n
 
-where C is the ciphertext in our case the ecrypted flag
+This can be represented using the pow method in python as `m = pow(c, d, n)`
 
-d is the private key, the secret value that was provided from the script
+where:
+
+C is the ciphertext in our case the ecrypted flag
+
+d is the private key;the secret value that was provided from the script
 
 n is the modulus
 
-I decided to write a python code to decrypt the flag using the pow() method in python
-
-m = pow(encryptedFlag, privateKey, modulus).
+Since we have all the values that are needed, I decided to write a python code to decrypt the flag and convert the values into text
 
 ```python
 import binascii
@@ -56,4 +58,6 @@ for i in final:
 ```
 
 on running the script, we get the flag;p
-<img src="flag.png"># CyberSpaceKe
+<img src="flag.png">
+
+##Mendux
