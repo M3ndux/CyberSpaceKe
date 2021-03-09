@@ -12,7 +12,7 @@ on extracting the crypto.zip, we get three files, a README.txt, setup.py and cry
 My first step was to read the content of the readme file but it did not explain much. It only explained the padding method used and how to install the dependencies and how to run the script XD
 <img src="README.png">
 
-My next move was to run the setup.py <code><b>python3 setup.py install</b></code> that installs the packages needed for the challenge.
+My next move was to run the setup.py `python3 setup.py install <x>` that installs the packages needed for the challenge.
 
 lets dive into the actual challenge ;p
 
