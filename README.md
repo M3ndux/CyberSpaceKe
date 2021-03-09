@@ -49,7 +49,9 @@ for c in encryptedFlag:
     message = pow(c, privateKey, modulus)
     flag.append(message)
 
-flag = [hex(i) for i in flag]                                                                                                   final = [str(i)[2:] for i in flag]
+flag = [hex(i) for i in flag]                                  
+
+final = [str(i)[2:] for i in flag]
 for i in final:
     try:
         print(binascii.unhexlify(i).decode(), end="")
