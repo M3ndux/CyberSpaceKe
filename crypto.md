@@ -10,7 +10,7 @@ For this challenge we are provided with a .zip file
 on extracting the crypto.zip, we get three files, a README.txt, setup.py and crypto.py
 
 My first step was to read the content of the readme file but it did not explain much. It only explained the padding method used and how to install the dependencies and how to run the script XD
-[](README.png)
+<img src="README.png">
 
 My next move was to run the setup.py "python3 setup.py install" that installs the packages needed for the challenge.
 
