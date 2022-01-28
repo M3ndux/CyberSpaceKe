@@ -1,4 +1,4 @@
-# CyberiSpaceKe The CSPKE CryptoFREE VAULT
+# CyberSpaceKe The CSPKE CryptoFREE VAULT
 
 We had an awesome CTF competition which was hosted by CyberSpaceKe that  was held at Afralti Conference & Guest House located in Nairobi Kenya. There were a number of challenges to tackle within the 12 hours that the CTF was live, although am going to cover on how I solved the crypto challenge only on this writeup.
 
